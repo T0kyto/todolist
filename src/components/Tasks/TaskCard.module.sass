@@ -1,0 +1,28 @@
+.taskCard
+	width: 80%
+	min-height: 10em
+	border: 1px solid #efefef
+	display: flex
+	flex-direction: column
+	justify-content: space-evenly
+	align-items: start
+	padding: 1em 2em
+	color: #444444
+	font-family: "Inter"
+	border-radius: 1px
+	background-color: white
+	margin-top: 1em
+
+	@media screen and ( max-width:  1200px)
+		min-height: 13em
+		font-size: 2em
+		width: 75%
+		
+	
+	h1
+		font-size: 1.5em
+		transition: color 0.3s ease
+		cursor: pointer
+
+		&:hover
+			color: #1590d3
